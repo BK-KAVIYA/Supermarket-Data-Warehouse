@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_GMGpgYOIEe6MBP3L-n4w2g" name="Location_Details" dataPackage="_GMGpgoOIEe6MBP3L-n4w2g" Server="Localhost 127.0.0.1" FilePath="C:/Users/dilsh/OneDrive/Desktop/Data Warehouse/Dimension Tables/Location.xlsx" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="give me 20 rows - Location Data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="give me 20 rows - Location Data:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GMGpgoOIEe6MBP3L-n4w2g" name="default" dataManager="_GMGpgYOIEe6MBP3L-n4w2g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GMGpg4OIEe6MBP3L-n4w2g" id="_wLHekIOHEe6MBP3L-n4w2g" label="Location">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GMGphIOIEe6MBP3L-n4w2g" label="LocationID" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GMGphYOIEe6MBP3L-n4w2g" label="LocationName" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GMGphoOIEe6MBP3L-n4w2g" label="Province" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

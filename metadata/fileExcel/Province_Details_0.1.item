@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_AkiHkYOJEe6MBP3L-n4w2g" name="Province_Details" dataPackage="_AkiHkoOJEe6MBP3L-n4w2g" Server="Localhost 127.0.0.1" FilePath="C:/Users/dilsh/OneDrive/Desktop/Data Warehouse/Dimension Tables/Province.xlsx" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AkiHkoOJEe6MBP3L-n4w2g" name="default" dataManager="_AkiHkYOJEe6MBP3L-n4w2g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AkiHk4OJEe6MBP3L-n4w2g" id="_HTr8oIOIEe6MBP3L-n4w2g" label="Province">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AkiHlIOJEe6MBP3L-n4w2g" label="Province_ID" length="1" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AkiHlYOJEe6MBP3L-n4w2g" label="Province" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
